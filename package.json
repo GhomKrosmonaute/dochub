@@ -1,0 +1,27 @@
+{
+  "name": "dochub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "www/index.html",
+  "scripts": {
+    "build": "eleventy --input=src --output=www",
+    "start": "eleventy --input=src --output=www --serve",
+    "watch": "eleventy --input=src --output=www --watch",
+    "test": "eleventy  --input=src --dryrun",
+    "debug": "$env:DEBUG=\"Eleventy*\"; eleventy --input=src --output=www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhomKrosmonaute/dochub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhomKrosmonaute/dochub/issues"
+  },
+  "homepage": "https://github.com/GhomKrosmonaute/dochub#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
